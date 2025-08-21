@@ -12,7 +12,6 @@ public class GameListDTO {
     }
 
     public GameListDTO(GameList entity){
-        //BeanUtils.copyProperties(entity, this);
         id = entity.getId();
         name = entity.getName();
     }
